@@ -45,3 +45,28 @@ The hierarchical clustering algorithm is then used to identify groups that prese
 (figure dendogram clusters)
 
 ##### Step 4: Get significant cluster 
+
+##### Step 5: Get and download compound and crystal pdb and information file
+
+#### 5. Scripts in bash
+##### Script 1: 1_preparate_ligprep.sh
+The script has 3 functions, which are: 
+
+- Change the format of the sdf files to mae, and prepare the molecules with Schrodinger's LigPrep at pH 7.4 +/-0.2 and generating at most one ligand.
+
+ - Separate the files into different folders according to the corresponding extension of each one (cluster_mae, cluster_prep, ligprep, pdb, sdf), and also generate two more folders that will be used in the following scripts, pharmacophore (script 2) and hypothesis (script 3).
+
+- Copy and rename the inp and def files with the name corresponding to their directory and cluster, since they are used as input for the elaboration of the pharmacophores.
+
+##### Script 2: 2_create_pharmacophore.sh
+The script has 2 functions, which are: 
+
+- To generate the pharmacophore hypotheses for each cluster considering from 3 to 7 features for the hypotheses and generating at most 10 hypotheses for each of these features and finally with a match of 85%.
+
+- From the *.phypo.mae.gz file generated from the previous function, 2 columns are extracted corresponding to the name of the hypothesis and its hyposcore which is the score assigned to the hypothesis, this file is saved after sorting it in descending order leaving first the best hypothesis of the cluster
+
+
+##### Script 3: 3_seach_hypotheses.sh
+The script has 3 functions, which are: 
+
+- It looks for the best hypothesis, taking into account the phasehyposcore, renames it with respect to FolderName_Cluster_Cluster_Cluster_HypothesisFeatures and moves it to a folder where all the best hypotheses of each cluster for the protein under study will be.
