@@ -9,7 +9,7 @@ Using a workflow implemented with the [Knime](https://www-knime-com.translate.go
  
 This workflow is composed of 2 parts, the first corresponds to a flow with Knime which is subdivided in 4 and the second part corresponds to 3 codes implemented with bash.
  ![Workflow KNIME](figures/fig_1.png)
- (Figura del workflow knime - 1 )
+
  
   #### 1. Input file
 The input file is in csv format and presents a dataset with active molecules and in this case its characteristics include: inhibition constant (ec50, ic50 and ki), id_CHEMBL, standard inchi/inchi-key and SMILES.
