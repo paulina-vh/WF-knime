@@ -8,7 +8,7 @@ Using a workflow implemented with the [Knime](https://www-knime-com.translate.go
 - Install rename to run script 2 and 3 in bash "sudo apt install rename", if using conda "conda install -c bioconda rename".
  
 This workflow is composed of 2 parts, the first corresponds to a flow with Knime which is subdivided in 4 and the second part corresponds to 3 codes implemented with bash.
- ![Workflow KNIME]()
+ ![Workflow KNIME](figures/fig_1.png)
  (Figura del workflow knime - 1 )
  
   #### 1. Input file
