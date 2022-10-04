@@ -7,18 +7,19 @@ Using a workflow implemented with the [Knime](https://www-knime-com.translate.go
 - Knime version 4.6, open source software for data analysis.
 - Install rename to run script 2 and 3 in bash "sudo apt install rename", if using conda "conda install -c bioconda rename".
  
-This workflow is composed of 2 parts, the first corresponds to a flow with Knime which is subdivided in 4 and the second part corresponds to 3 codes implemented with bash.
+This workflow is composed of 2 parts, the first corresponds to a flow with Knime that is subdivided into 4, which can be seen in the figure and the second part corresponds to 3 codes implemented with bash. 
+
  ![Workflow KNIME](figures/fig_1.png)
 
  
   #### 1. Input file
 The input file is in csv format and presents a dataset with active molecules and in this case its characteristics include: inhibition constant (ec50, ic50 and ki), id_CHEMBL, standard inchi/inchi-key and SMILES.
 
-(figura 2 - foto csv)
+ ![CSV-knime](figures/fig_2.png)
 
 In addition they are separated by each type of inhibition that they present as already mentioned ec50, ic50 and Ki.
 
-(figura 3 - foto del nodo con standard type)
+ ![nodo-standar type](figures/fig_3.png)
   
 #### 2. Molecular filtering: ADME and lead-likness criteria
 
