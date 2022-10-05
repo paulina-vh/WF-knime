@@ -42,7 +42,7 @@ The molecules are grouped according to the chemical structural similarity betwee
 
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must a present 10 or more molecules.
 
-(figure dendogram clusters)
+![dendogram_clusters](fig_5.png)
 
 ##### Step 4: Get significant cluster 
 
