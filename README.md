@@ -15,11 +15,11 @@ This workflow is composed of 2 parts, the first corresponds to a flow with Knime
   #### 1. Input file
 The input file is in csv format and presents a dataset with active molecules and in this case its characteristics include: inhibition constant (ec50, ic50 and ki), id_CHEMBL, standard inchi/inchi-key and SMILES.
 
- ![CSV-knime](figures/fig_2.png)
+ ![CSV-knime](fig_2.png)
 
 In addition they are separated by each type of inhibition that they present as already mentioned ec50, ic50 and Ki.
 
- ![nodo-standar type](figures/fig_3.png)
+ ![nodo-standar type](fig_3.png)
   
 #### 2. Molecular filtering: ADME and lead-likness criteria
 
@@ -38,7 +38,7 @@ To generate the clusters, we used the identification of groups by similar molecu
 ##### Step 3: Cluster dataset with hierarchical clustering algorithm
 The molecules are grouped according to the chemical structural similarity between them and thus find groups that share a common scaffold. These molecules are identified with fingerprints in this case was carried out by Morgan FingerPrint and in the case of similarity can be described by the Tanimoto coefficient, which varies from zero to one, where values close to zero represent a low similarity and values close to 1 a high similarity.
 
- ![fingerprint-tanimoto](figures/fig_4.png)
+ ![fingerprint-tanimoto](fig_4.png)
 
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must a present 10 or more molecules.
 
