@@ -43,11 +43,12 @@ The molecules are grouped according to the chemical structural similarity betwee
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must a present 10 or more molecules.
 
 ![dendogram_clusters](fig_5.png)
-
-##### Step 4: Get significant cluster 
 ![barchar_clusters](fig_6.png)
 ![rof_clusters](fig_7.png)
 ![rof_clusters](fig_8.png)
+
+##### Step 4: Get significant cluster 
+In the last step the molecule pathway is obtained and the group of molecules is downloaded in SDF format and in the case that this molecule is present in a PDB crystal this crystal will be downloaded. In addition, an xlsx output file is generated with the information of the molecule present in each pdb crystal.
 
 ##### Step 5: Get and download compound and crystal pdb and information file
 
