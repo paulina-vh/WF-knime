@@ -38,7 +38,7 @@ To generate the clusters, we used the identification of groups by similar molecu
 ##### Step 3: Cluster dataset with hierarchical clustering algorithm
 The molecules are grouped according to the chemical structural similarity between them and thus find groups that share a common scaffold. These molecules are identified with fingerprints in this case was carried out by Morgan FingerPrint and in the case of similarity can be described by the Tanimoto coefficient, which varies from zero to one, where values close to zero represent a low similarity and values close to 1 a high similarity.
 
-(figure fingerprint and tanimoto)
+ ![fingerprint-tanimoto](figures/fig_4.png)
 
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must a present 10 or more molecules.
 
