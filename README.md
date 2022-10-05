@@ -45,6 +45,9 @@ Next, the hierarchical clustering algorithm is used to identify groups with simi
 ![dendogram_clusters](fig_5.png)
 
 ##### Step 4: Get significant cluster 
+![barchar_clusters](fig_6.png)
+![rof_clusters](fig_7.png)
+![rof_clusters](fig_8.png)
 
 ##### Step 5: Get and download compound and crystal pdb and information file
 
