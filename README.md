@@ -60,6 +60,13 @@ The Lipinski rules for each cluster can also be seen in the graphs. For example 
 In the last step the molecule pathway is obtained and the group of molecules is downloaded in SDF format and in the case that this molecule is present in a PDB crystal this crystal will be downloaded. In addition, an xlsx output file is generated with the information of the molecule present in each pdb crystal.
 
 ##### Step 5: Get and download compound and crystal pdb and information file
+The path of the molecule is obtained by means of the id ChEMBL, in the case that this path is not found it is searched by the and the standard inchi key. After obtaining the path of the molecule, you can know if the molecule is co-crystallized with a protein and download the PDB file and in turn download each cluster with their respective molecules in SDF format.
+
+
+As a final result, a folder is obtained for each protein (each input file) and in each folder there are 4 different types of files as shown in the figure below.
+![end_result](fig10.png)
+
+
 
 #### 5. Scripts in bash
 ##### Script 1: 1_preparate_ligprep.sh
