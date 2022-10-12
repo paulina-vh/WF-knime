@@ -47,8 +47,10 @@ The graph shows that with a threshold of 0.6, 146 clusters are generated, which 
 ![dendogram_clusters](fig_5.png)
 
 The bar graph shows the population of molecules that make up each of the clusters formed.
-
 ![barchar_clusters](fig_6.png)
+
+A file called "all_clusters.xlsx" is generated with the result of the significant and non-significant clusters for each type of inhibition.
+![all_clusters](fig9.png)
 
 The Lipinski rules for each cluster can also be seen in the graphs. For example in the first of them SlogP these values must be less than or equal to 5, but since it is allowed to violate a rule these values can be higher and it is observed in the graph that there are values that reach up to 7.5, followed by the molecular weight, although it must be less than or equal to 500 grams/mol, it was established in this case that it must be less than or equal to 600 grams/mol and finally the number of hydrogen bond donors and acceptors must be less than or equal to 5 and 10, observing that the rules are complied with and the molecules are grouped in these values.
 ![rof_clusters](fig7.png)
