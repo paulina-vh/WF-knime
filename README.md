@@ -17,7 +17,7 @@ The input file is in csv format and presents a dataset with active molecules and
 
  ![CSV-knime](fig_2.png)
 
-In addition they are separated by each type of inhibition that they present as already mentioned ec50, ic50 and Ki.
+In addition they are separated by each type of inhibition that they present as already mentioned ec50, ic50, Ki and pChEMBL.
 
  ![nodo-standar type](fig3.png)
   
