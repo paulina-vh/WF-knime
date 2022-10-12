@@ -88,6 +88,8 @@ The script has 3 functions, which are:
  - Separate the files into different folders according to the corresponding extension of each one (cluster_mae, cluster_prep, ligprep, pdb, sdf), and also generate two more folders that will be used in the following scripts, pharmacophore (script 2) and hypothesis (script 3).
 
 - Copy and rename the inp and def files with the name corresponding to their directory and cluster, since they are used as input for the elaboration of the pharmacophores.
+![script_!](fig12.png)
+
 
 ##### Script 2: 2_create_pharmacophore.sh
 The script has 2 functions, which are: 
