@@ -102,4 +102,4 @@ The script has 2 functions, which are:
 ##### Script 3: 3_seach_hypotheses.sh
 The script has 3 functions, which are: 
 
-- It looks for the best hypothesis, taking into account the phasehyposcore, renames it with respect to FolderName_Cluster_Cluster_Cluster_HypothesisFeatures and moves it to a folder where all the best hypotheses of each cluster for the protein under study will be.
+- It looks for the best hypothesis, taking into account the phasehyposcore, renames it with respect to FolderName_Cluster_HypothesisFeatures and moves it to a folder where all the best hypotheses of each cluster for the protein under study will be.
