@@ -1,7 +1,7 @@
 # Search for pharmacophores based on bioactive molecules in key proteins for Alzheimer's disease
 
 Using a workflow implemented with the [Knime](https://www-knime-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=es-419)
- tool (open source software used in data science) and bash code, we started with a dataset of key proteins associated with AD, for each of them we identified the bioactive molecules (EC50, IC50 and Ki) from the database [ChEMBL](https://www.ebi.ac.uk/chembl/). Each set of molecules were filtered according to Lipinski's rules and a similarity matrix was calculated using the Morgan fingerprint and Tanimoto similarity coefficient. Subsequently, they were classified by hierarchical clustering, thus finding clusters of bioactive molecules against each target, but different from each other. Finally, for each cluster, pharmacophore hypotheses were generated with Phase software, selecting the best one with respect to the phasehyposcore, resulting in a set of pharmacophores.
+ tool (open source software used in data science) and bash code, we started with a dataset of key proteins associated with AD, for each of them we identified the bioactive molecules (EC50, IC50, Ki ans pChEMBL) from the database [ChEMBL](https://www.ebi.ac.uk/chembl/). Each set of molecules were filtered according to Lipinski's rules and a similarity matrix was calculated using the Morgan fingerprint and Tanimoto similarity coefficient. Subsequently, they were classified by hierarchical clustering, thus finding clusters of bioactive molecules against each target, but different from each other. Finally, for each cluster, pharmacophore hypotheses were generated with Phase software, selecting the best one with respect to the phasehyposcore, resulting in a set of pharmacophores.
 
 ## Requirements
 - Knime version 4.6, open source software for data analysis.
@@ -9,7 +9,7 @@ Using a workflow implemented with the [Knime](https://www-knime-com.translate.go
  
 This workflow is composed of 2 parts, the first corresponds to a flow with Knime that is subdivided into 4, which can be seen in the figure and the second part corresponds to 3 codes implemented with bash. 
 
- ![Workflow KNIME](fig_1.png)
+ ![Workflow KNIME](fig1.png)
 
  
   #### 1. Input file
