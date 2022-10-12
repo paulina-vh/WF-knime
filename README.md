@@ -19,7 +19,7 @@ The input file is in csv format and presents a dataset with active molecules and
 
 In addition they are separated by each type of inhibition that they present as already mentioned ec50, ic50 and Ki.
 
- ![nodo-standar type](fig_3.png)
+ ![nodo-standar type](fig3.png)
   
 #### 2. Molecular filtering: ADME and lead-likness criteria
 
