@@ -74,8 +74,14 @@ Using 3 bash scripts, the results obtained from the knime workflow are taken and
 The following figure shows that the scripts to be used must be found in a folder behind where all the results are located. In addition, there are 2 files (file.inp and file.def) that will be used for the creation of pharmacophores.
 ![file_pre_script](fig11.png)
 
+To run the scripts you must do it in order and in the following way:
+./1_preparate_ligprep.sh
+./2_create_pharmacophore.sh
+./3_search_hypotheses.sh
+
+
 ##### Script 1: 1_preparate_ligprep.sh
-The script has 3 functions, which are: 
+The script has 3 functions, which are:
 
 - Change the format of the sdf files to mae, and prepare the molecules with Schrodinger's LigPrep at pH 7.4 +/-0.2 and generating at most one ligand.
 
