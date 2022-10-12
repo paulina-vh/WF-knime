@@ -44,6 +44,9 @@ The molecules are grouped according to the chemical structural similarity betwee
 ##### Step 4: Get significant cluster 
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must a present 10 or more molecules.
 ![dendogram_clusters](fig_5.png)
+
+The bar graph shows the population of molecules that make up each of the clusters formed.
+
 ![barchar_clusters](fig_6.png)
 
 Also the lipinski rules can be observed for each cluster.
