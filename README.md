@@ -69,6 +69,11 @@ As a final result, a folder is obtained for each protein (each input file) and i
 
 
 #### 5. Scripts in bash
+Using 3 bash scripts, the results obtained from the knime workflow are taken and the first script is in charge of transforming the files from SDF to MAE format and then preparing the molecules at a given pH. The second script is in charge of creating the pharmacophores for each of the files and the third script is in charge of selecting the best pharmacophore hypothesis for each cluster. 
+
+The following figure shows that the scripts to be used must be found in a folder behind where all the results are located. In addition, there are 2 files (file.inp and file.def) that will be used for the creation of pharmacophores.
+![file_pre_script](fig11.png)
+
 ##### Script 1: 1_preparate_ligprep.sh
 The script has 3 functions, which are: 
 
