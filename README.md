@@ -75,9 +75,9 @@ The following figure shows that the scripts to be used must be found in a folder
 ![file_pre_script](fig11.png)
 
 To run the scripts you must do it in order and in the following way:
-./1_preparate_ligprep.sh
-./2_create_pharmacophore.sh
-./3_search_hypotheses.sh
+- ./1_preparate_ligprep.sh
+- ./2_create_pharmacophore.sh
+- ./3_search_hypotheses.sh
 
 
 ##### Script 1: 1_preparate_ligprep.sh
