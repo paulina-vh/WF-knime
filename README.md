@@ -114,3 +114,5 @@ The script has 3 functions, which are:
 - It is located in the pharmacoforum folder and with respect to the generated csv file it saves the name of the hypothesis that has the best score and searches for the hypothesis in the folder .phprj/hypotheses, when it finds it it renames it with respect to FolderName_Cluster_Cluster_HypothesisFeatures and moves it to the folder Hypotheses_FolderName where all the best hypotheses of each cluster for the protein under study will be.
 ![script_3](fig14.png)
 
+Finally in the following figure you can see some of the pharmacophore hypotheses obtained at the end of the script 3.
+![hypotheses](fig19.png)
