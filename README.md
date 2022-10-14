@@ -43,6 +43,8 @@ The molecules are grouped according to the chemical structural similarity betwee
 
 ##### Step 4: Get significant cluster 
 Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must present 10 or more molecules. 
+![nodo_hierarchicalClusteringAssigner](fig_16.png)
+
 The graph shows that with a threshold of 0.6, 146 clusters are generated, which are subsequently classified as non-significant and significant, and the significant ones must have 10 or more molecules in their group.
 ![dendogram_clusters](fig_5.png)
 
