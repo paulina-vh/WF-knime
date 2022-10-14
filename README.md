@@ -47,11 +47,10 @@ The graph shows that with a threshold of 0.6, 146 clusters are generated, which 
 ![dendogram_clusters](fig_5.png)
 
 ##### Step 4: Get significant cluster 
-Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must present 10 or more molecules.
-Through the hierarchical clustering assigner node, the values obtained by the assigned threshold can be observed.
+Through the sorter node, the clusters are ordered from highest to lowest and then with the Bar Chart node, the populations can be observed for each node generated.
 ![nodo_graph](fig17.png)
 
-The bar graph shows the population of molecules that make up each of the clusters formed. 
+The bar chart shows the population of molecules that make up each of the clusters formed for this group. 
 ![barchar_clusters](fig_6.png)
 
 A file called "all_clusters.xlsx" is generated with the result of the significant and non-significant clusters for each type of inhibition.
