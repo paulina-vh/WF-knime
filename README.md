@@ -30,7 +30,7 @@ With the canonical format obtained from RDKit, the salts that may be present in 
 
 ##### Step 2:Filter dataset by Lipinski's rule of five
 With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 complies and 0 does not comply), then these values are added for each molecule and all molecules with a value of 3 or 4 are selected, thus considering only those molecules that comply with 3 or 4 of the pharmacokinetic characteristics evaluated.
- ![Boolean_ROF](fig14.png)
+ ![Boolean_ROF](fig15.png)
    
 #### 3. Get compound clustering
 To generate the clusters, we used the identification of groups by similar molecules based on the Morgan fingerprint and the calculation of the Tanimoto distance, and by means of the hierarchical clustering algorithm we selected the most significant clusters with 10 or more molecules.
