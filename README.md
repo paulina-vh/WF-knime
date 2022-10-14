@@ -56,6 +56,9 @@ The bar chart shows the population of molecules that make up each of the cluster
 A file called "all_clusters.xlsx" is generated with the result of the significant and non-significant clusters for each type of inhibition.
 ![all_clusters](fig9.png)
 
+By means of the Scatter Plot node, the results for each Lipinski rule (ROF) can be observed interactively (graphs). In addition, the figure shows a series of options where you can define the characteristics that you want to plot in X and Y, as well as add title and subtitles.
+![graph_rof](fig18.png)
+
 The Lipinski rules for each cluster can also be seen in the graphs. For example in the first of them SlogP these values must be less than or equal to 5, but since it is allowed to violate a rule these values can be higher and it is observed in the graph that there are values that reach up to 7.5, followed by the molecular weight, although it must be less than or equal to 500 grams/mol, it was established in this case that it must be less than or equal to 600 grams/mol and finally the number of hydrogen bond donors and acceptors must be less than or equal to 5 and 10, observing that the rules are complied with and the molecules are grouped in these values.
 ![rof_clusters](fig7.png)
 ![rof_clusters](fig8.png)
