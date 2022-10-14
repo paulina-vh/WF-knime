@@ -39,14 +39,16 @@ To generate the clusters, we used the identification of groups by similar molecu
 The molecules are grouped according to the chemical structural similarity between them and thus find groups that share a common scaffold. These molecules are identified with fingerprints in this case was carried out by Morgan FingerPrint and in the case of similarity can be described by the Tanimoto coefficient, which varies from zero to one, where values close to zero represent a low similarity and values close to 1 a high similarity.
 
  ![fingerprint-tanimoto](fig_4.png)
-
-
-##### Step 4: Get significant cluster 
-Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must present 10 or more molecules. 
-![dendogram_clusters](fig16.png)
+ Through the hierarchical clustering assigner node, the values obtained by the assigned threshold can be observed.
+ 
+![nodo_graph](fig16.png)
 
 The graph shows that with a threshold of 0.6, 146 clusters are generated, which are subsequently classified as non-significant and significant, and the significant ones must have 10 or more molecules in their group.
 ![dendogram_clusters](fig_5.png)
+
+##### Step 4: Get significant cluster 
+Next, the hierarchical clustering algorithm is used to identify groups with similar compounds, thus generating representative clusters. And within the selection of siginficative clusters these must present 10 or more molecules. 
+
 
 The bar graph shows the population of molecules that make up each of the clusters formed.
 ![barchar_clusters](fig_6.png)
