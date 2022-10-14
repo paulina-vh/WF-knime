@@ -88,18 +88,21 @@ The script has 3 functions, which are:
  - Separate the files into different folders according to the corresponding extension of each one (cluster_mae, cluster_prep, ligprep, pdb, sdf), and also generate two more folders that will be used in the following scripts, pharmacophore (script 2) and hypothesis (script 3).
 
 - Copy and rename the inp and def files with the name corresponding to their directory and cluster, since they are used as input for the elaboration of the pharmacophores.
-![script_!](fig12.png)
+![script_1](fig12.png)
 
 
 ##### Script 2: 2_create_pharmacophore.sh
-The script has 2 functions, which are: 
+The script has 2 functions, which are:
 
-- To generate the pharmacophore hypotheses for each cluster considering from 3 to 7 features for the hypotheses and generating at most 10 hypotheses for each of these features and finally with a match of 85%.
+    In the cluster_prep folder the pharmacophore hypotheses are generated using the inp and def files for each cluster considering 3 to 7 features for the hypotheses and generating at most 10 hypotheses for each of these features and finally with an 85% match. The files with extension phprj and phypo.mae.gz are moved to the pharmacophore folder.
 
-- From the *.phypo.mae.gz file generated from the previous function, 2 columns are extracted corresponding to the name of the hypothesis and its hyposcore which is the score assigned to the hypothesis, this file is saved after sorting it in descending order leaving first the best hypothesis of the cluster
+    From the phypo.mae.gz file generated from the previous function, 2 columns are extracted corresponding to the name of the hypothesis and its hyposcore which is the score assigned to the hypothesis, this file is sorted with respect to the score from highest to lowest score and saved in csv format the first hypothesis in the list that is with the highest score is considered the best of the cluster.
+![script_2](fig13.png)
 
 
 ##### Script 3: 3_seach_hypotheses.sh
 The script has 3 functions, which are: 
 
-- It looks for the best hypothesis, taking into account the phasehyposcore, renames it with respect to FolderName_Cluster_HypothesisFeatures and moves it to a folder where all the best hypotheses of each cluster for the protein under study will be.
+- It is located in the pharmacoforum folder and with respect to the generated csv file it saves the name of the hypothesis that has the best score and searches for the hypothesis in the folder .phprj/hypotheses, when it finds it it renames it with respect to FolderName_Cluster_Cluster_HypothesisFeatures and moves it to the folder Hypotheses_FolderName where all the best hypotheses of each cluster for the protein under study will be.
+![script_3](fig14.png)
+
