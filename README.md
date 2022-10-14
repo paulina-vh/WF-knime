@@ -14,7 +14,7 @@ This workflow is composed of 2 parts, the first corresponds to a flow with Knime
 
  
   #### 1. Input file
-The input file is in csv format and presents a dataset with active molecules and in this case its characteristics include: inhibition constant (ec50, ic50 and ki), id_CHEMBL, standard inchi/inchi-key and SMILES.
+The input file is in csv format and presents a dataset with active molecules and in this case its characteristics include: inhibition constant (ec50, ic50 and Ki), id_CHEMBL, standard inchi/inchi-key and SMILES. (It can also have as inhibition constant pChEMBL which corresponds to -log in base 10 of the ec50, ic50 or ki constants).
 
  ![CSV-knime](fig_2.png)
 
