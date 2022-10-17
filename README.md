@@ -30,7 +30,7 @@ The next step is a molecular filtering applying the Lipinski rule of 5 (LogP <=5
 With the canonical format obtained from RDKit, the salts that may be present in the molecules are removed and the properties of the Lipinski rules are calculated.
 
 ##### Step 2:Filter dataset by Lipinski's rule of five
-With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 complies and 0 does not comply), then these values are added for each molecule and all molecules with a value of 3 or 4 are selected, thus considering only those molecules that comply with 3 or 4 of the pharmacokinetic characteristics evaluated.
+With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 meets and 0 does not meet), then these values are summed for each molecule and all molecules with a value of 3 or 4 of the pharmacokinetic characteristics evaluated are selected.
  ![Boolean_ROF](fig15.png)
    
 #### 3. Get compound clustering
