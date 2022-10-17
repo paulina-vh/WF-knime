@@ -95,7 +95,7 @@ The script has 3 functions, which are:
 
 - Change the format of the sdf files to mae, and prepare the molecules with Schrodinger's LigPrep at pH 7.4 +/-0.2 and generating at most one ligand.
 
- - Separate the files into different folders according to the corresponding extension of each one (cluster_mae, cluster_prep, ligprep, pdb, sdf), and also generate two more folders that will be used in the following scripts, pharmacophore (script 2) and hypothesis (script 3).
+ - Separate the files into different folders according to the corresponding extension of each one (01_cluster_mae, 01_cluster_prep, 01_ligprep, 01_pdb, 01_sdf), and also generate two more folders that will be used in the following scripts, 02_pharmacophore (script 2) and 03_hypothesis (script 3).
 
 - Copy and rename the inp and def files with the name corresponding to their directory and cluster, since they are used as input for the elaboration of the pharmacophores.
 ![script_1](fig12.png)
