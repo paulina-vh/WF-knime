@@ -32,7 +32,7 @@ With the canonical format obtained from RDKit, the salts that may be present in 
 ##### Step 2:Filter dataset by Lipinski's rule of five
 With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 meets and 0 does not meet), then these values are summed for each molecule and all molecules with a value of 3 or 4 of the pharmacokinetic characteristics evaluated are selected.
 
-For example, the figure shows that the SlogP of the molecule exceeds the allowed range (>=5), so a boolean=0 is assigned.
+For example, the figure shows that the SlogP of the molecule exceeds the allowed range (<=5), so a boolean=0 is assigned.
  ![Boolean_ROF](fig15.png)
    
 #### 3. Get compound clustering
