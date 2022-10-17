@@ -5,10 +5,10 @@ Using a workflow implemented with the [Knime](https://www-knime-com.translate.go
 
 ## Requirements
 - Knime version 4.6, open source software for data analysis.
-- unix operating system to run scripts (ubuntu 22.04 was used)
+- Unix operating system to run scripts (ubuntu 22.04 was used)
 - Install rename to run script 2 and 3 in bash "sudo apt install rename", if using conda "conda install -c bioconda rename".
  
-This workflow is composed of 2 parts, the first corresponds to a flow with Knime that is subdivided into 4, which can be seen in the figure and the second part corresponds to 3 codes implemented with bash. 
+This workflow is composed of 2 parts, the first corresponds to a flow with Knime that is subdivided into 4 steps, which can be seen in the figure and the second part corresponds to 3 codes implemented with bash. 
 
  ![Workflow KNIME](fig1.png)
 
