@@ -84,7 +84,7 @@ Using 3 bash scripts, the results obtained from the knime workflow are taken and
 The following figure shows that the scripts to be used must be found in a folder behind where all the results are located. In addition, there are 2 files (file.inp and file.def) that will be used for the creation of pharmacophores.
 ![file_pre_script](fig11.png)
 
-To run the scripts you must do it in order and in the following way:
+To run the scripts you must do so in consecutive order after each one has finished. And the way to run them is as follows:
 - ./1_preparate_ligprep.sh
 - ./2_create_pharmacophore.sh
 - ./3_search_hypotheses.sh
