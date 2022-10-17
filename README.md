@@ -104,9 +104,9 @@ The script has 3 functions, which are:
 ##### Script 2: 2_create_pharmacophore.sh
 The script has 2 functions, which are:
  
- In the 01_cluster_prep folder the pharmacophore hypotheses are generated using the inp and def files for each cluster considering 3 to 7 features for the hypotheses and generating at most 10 hypotheses for each of these features and finally with an 85% match. The files with extension phprj and phypo.mae.gz are moved to the pharmacophore folder.
+- In the 01_cluster_prep folder the pharmacophore hypotheses are generated using the inp and def files for each cluster considering 3 to 7 features for the hypotheses and generating at most 10 hypotheses for each of these features and finally with an 85% match. The files with extension phprj and phypo.mae.gz are moved to the pharmacophore folder.
  
-  From the phypo.mae.gz file generated from the previous function, 2 columns are extracted corresponding to the name of the hypothesis and its phasehyposcore which is the score assigned to the hypothesis, this file is sorted with respect to the score from highest to lowest score and saved in csv format the first hypothesis in the list that is with the highest score is considered the best of the cluster.
+ - From the phypo.mae.gz file generated from the previous function, 2 columns are extracted corresponding to the name of the hypothesis and its phasehyposcore which is the score assigned to the hypothesis, this file is sorted with respect to the score from highest to lowest score and saved in csv format the first hypothesis in the list that is with the highest score is considered the best of the cluster.
 ![script_2](fig13.png)
 
    
