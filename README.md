@@ -121,3 +121,6 @@ The script has 3 functions, which are:
 
 Finally in the following figure you can see some of the pharmacophore hypotheses obtained at the end of the script 3.
 ![hypotheses](/media/fig19.png)
+
+
+If you want to check your results, they can be found in the 02_Results folder of the following link https://drive.google.com/drive/folders/1m4e-7gfALMZ-5eSXHzNM1rwCol9flBeH?usp=sharing.
