@@ -52,7 +52,6 @@ The graph shows that with a threshold of 0.6, 146 clusters are generated, which 
 ##### Step 4: Get significant cluster 
 Through the sorter node, the clusters are ordered from highest to lowest and then with the Bar Chart node, the populations can be observed for each node generated.
 
-![nodo_graph](/media/fig17.png)
 <img src="/media/fig17.png" width="500" height="600">
 
 The bar chart shows the population of molecules that make up each of the clusters formed for this group. 
