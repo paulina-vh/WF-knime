@@ -77,6 +77,7 @@ The path of the molecule is obtained by means of the id ChEMBL, in the case that
 As a final result, a folder is obtained for each protein (each input file) and in each folder there are 4 different types of files as shown in the figure below.
 ![end_result](/media/fig10.png)
 
+<img src="/media/fig10.png" width="500" height="600">
 
 
 #### 5. Scripts in bash
