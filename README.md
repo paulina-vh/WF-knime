@@ -91,6 +91,7 @@ To run the scripts you must do so in consecutive order after each one has finish
 
 
 ##### Script 1: 1_preparate_ligprep.sh
+In the folder file to create pharmacophore there are 2 files with extension inp and def which you must copy and leave in the same path where the scripts are located, since they will be used in the first script to make the pharmacophore input.
 The script has 3 functions, which are:
 
 - Change the format of the sdf files to mae, and prepare the molecules with Schrodinger's LigPrep at pH 7.4 +/-0.2 and generating at most one ligand.
