@@ -60,7 +60,7 @@ The bar chart shows the population of molecules that make up each of the cluster
 A file called "all_clusters.xlsx" is generated with the result of the significant and non-significant clusters for each type of inhibition.
 ![all_clusters](/media/fig9.png)
 
-<img src="/media/fig9.png" width="600" height="600">
+<img src="/media/fig9.png" width="700" height="600">
 
 By means of the Scatter Plot node, the results for each Lipinski rule (ROF) can be observed interactively (graphs). In addition, the figure shows a series of options where you can define the characteristics that you want to plot in X and Y, as well as add title and subtitles.
 ![graph_rof](/media/fig18.png)
