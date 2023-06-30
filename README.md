@@ -27,7 +27,7 @@ In addition they are separated by each type of inhibition that they present as a
 The next step is a molecular filtering applying the Lipinski rule of 5 (LogP <=5, molecular weight <=500 gr/mol, hydrogen bond acceptors <= 10 and hydrogen bond donors <=5). In this case, molecular weight <=600 gr/mol is considered and these characteristics are calculated for each of the molecules and the compounds that respect 3 or 4 of the characteristics corresponding to molecular properties that have pharmacokinetic importance in the human body are selected.
 
 ##### Step 1: Calculate MW, HBD, HBA, and LogP
-With the canonical format obtained from RDKit, the salts that may be present in the molecules are removed and the properties of the Lipinski rules are calculated.
+With the canonical format obtained from RDKit, salts that may be present and molecules repeated by SMILE are eliminated. Then the properties of the Lipinski rules are calculated.
 
 ##### Step 2:Filter dataset by Lipinski's rule of five
 With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 meets and 0 does not meet), then these values are summed for each molecule and all molecules with a value of 3 or 4 of the pharmacokinetic characteristics evaluated are selected.
