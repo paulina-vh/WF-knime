@@ -33,7 +33,7 @@ With the canonical format obtained from RDKit, salts that may be present and mol
 With the properties obtained from the previous step for each of the molecules, a filter is applied for each property (MW, HBD, HBA, LogP) and a Boolean value is assigned (1 meets and 0 does not meet), then these values are summed for each molecule and all molecules with a value of 3 or 4 of the pharmacokinetic characteristics evaluated are selected.
 
 For example, the figure shows that the SlogP of the molecule exceeds the allowed range (<=5), so a boolean=0 is assigned.
- ![Boolean_ROF](/media/fig15.png)
+ ![Boolean_ROF](/media/fig_15.png)
    
 #### 3. Get compound clustering
 To generate the clusters, we used the identification of groups by similar molecules based on the Morgan fingerprint and the calculation of the Tanimoto distance, and by means of the hierarchical clustering algorithm we selected the most significant clusters with 10 or more molecules.
